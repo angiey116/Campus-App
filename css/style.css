@@ -1,0 +1,19 @@
+/*styling*/
+body {
+    font-family: Arial, sans-serif;
+}
+
+/*navigation spacing*/
+.nav-link {
+    margin-right: 10px;
+}
+
+/*heading spacing*/
+h1, h2, h3 {
+    margin-right: 15px;
+}
+
+/*card styling*/
+.card {
+    border-radius: 10px;
+}
