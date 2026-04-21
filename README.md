@@ -1,10 +1,27 @@
+# Campus Life Super App
+
+## Description
+This project is a multi-page responsive web application designed to help students find campus events, dining info, and useful campus resources.
+
+## Purpose
+The purpose of this project is to practice building a responsive website using HTML, CSS, Bootstrap, JavaScript, and GitHub Pages.
+
+## Technologies Used
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- GitHub Pages
+- Visual Studio Code
+
 ## Features
 - Home page
 - Events page
 - Dining page
 - Internal navigation
 - Interactive buttons with JavaScript
-- Placeholder API setup
+- Responsive layout
+- Bootstrap styling
 
 ## Setup Instructions
 1. Clone the repository
