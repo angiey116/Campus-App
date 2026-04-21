@@ -8,25 +8,34 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
     <a class="navbar-brand" href="index.html">Campus Life Super App</a>
     <div>
-        <a class="nav-link d-inline" href="index.html">Home</a>
-        <a class="nav-link d-inline" href="events.html">Events</a>
+        <a class="nav-link d-inline me-3" href="index.html">Home</a>
+        <a class="nav-link d-inline me-3" href="events.html">Events</a>
         <a class="nav-link d-inline" href="dining.html">Dining</a>
     </div>
     </nav>
 
+<!-- Main Content -->
 <main class="container mt-4">
-    <h1>Campus Dining</h1>
+    <section>
+        <h1>Campus Dining</h1>
         <p>Find dining hall info, hours, and food options.</p>
+<!-- Button to load dining info -->
+        <button class="btn btn-warning mb-3" id="loadDiningBtn">Load Dining Info</button>
 
-    <button class="btn btn-warning mb-3" id="loadDiningBtn">Load Dining Info</button>
-
-    <div id="diningContainer" class="card p-3">
-        <p>Dining info will appear here.</p>
-    </div>
+        <div id="diningContainer" class="card p-3">
+            <p>Dining info will appear here.</p>
+        </div>
+    </section>
 </main>
+
+<footer class=" text-center py-3 mt-4 bg-light">
+    <p> class="mb-0">For the Rize Project</p>
+</footer>
 
     <script src="js/script.js"></script>
 </body>
