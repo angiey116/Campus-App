@@ -29,27 +29,3 @@ if (loadDiningBtn) {
         `;
     });
 }
-
-// API Setup
-const eventsApiUrl = "https://example.com/api/events";
-const diningApiUrl = "https://example.com/api/dining";
-
-async function fetchEventsData() {
-    try {
-        const response = await fetch(eventsApiUrl);
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.log("Events API placeholder not working yet.", error);
-    }
-}
-
-async function fetchDiningData() {
-    try {
-        const response = await fetch(diningApiUrl);
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.log("Dining API placeholder not working yet.", error);
-    }
-}

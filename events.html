@@ -8,25 +8,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
     <a class="navbar-brand" href="index.html">Campus Life Super App</a>
     <div>
-        <a class="nav-link d-inline" href="index.html">Home</a>
-        <a class="nav-link d-inline" href="events.html">Events</a>
+        <a class="nav-link d-inline me-3" href="index.html">Home</a>
+        <a class="nav-link d-inline me-3" href="events.html">Events</a>
         <a class="nav-link d-inline" href="dining.html">Dining</a>
     </div>
     </nav>
-
+<!-- Main Content -->
 <main class="container mt-4">
-    <h1>Campus Events</h1>
+    <section>
+        <h1>Campus Events</h1>
         <p>See upcoming campus events and activities.</p>
+<!-- Button to load events -->
+        <button class="btn btn-success mb-3" id="loadEventsBtn">Load Sample Events</button>
 
-    <button class="btn btn-success mb-3" id="loadEventsBtn">Load Sample Events</button>
-
-    <div id="eventsContainer" class="card p-3">
-        <p>Events will appear here.</p>
-    </div>
+        <div id="eventsContainer" class="card p-3">
+            <p>Events will appear here.</p>
+        </div>
+    </section>
 </main>
+
+<footer class=" text-center py-3 mt-4 bg-light">
+    <p class="mb-0">For the Rize Project</p>
+</footer>
 
     <script src="js/script.js"></script>
 </body>
