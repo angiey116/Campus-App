@@ -14,7 +14,7 @@ The purpose of this project is to practice building a responsive website using H
 - GitHub Pages
 - Visual Studio Code
 
-## Features
+## Features <!--List the main features of the project-->
 - Home page
 - Events page
 - Dining page
@@ -23,15 +23,15 @@ The purpose of this project is to practice building a responsive website using H
 - Responsive layout
 - Bootstrap styling
 
-## Setup Instructions
+## Setup Instructions <!--Explain how to open and run the project-->
 1. Clone the repository
 2. Open the project in VS Code
 3. Open index.html in a browser
 
-## Deployment
+## Deployment <!--Explain where the project is deployed-->
 This project is deployed using Github Pages.
 
-## Future Improvements
+## Future Improvements <!--Ideas for future project updates-->
 - Add real API integrations
 - Add search and filter options
 - Improve accessibility
